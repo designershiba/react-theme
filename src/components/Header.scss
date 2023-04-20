@@ -1,0 +1,25 @@
+@import '../scss/color.scss';
+.navbar {
+    .blue &{
+        background-color: $lightblue !important;
+    }
+    .red &{
+        background-color: $lightred !important;
+    }
+    .green &{
+        background-color: $lightgreen !important;
+    }
+    .navbar-nav {
+        .nav-link.active {
+            .blue &{
+                color: $blue !important;
+            }
+            .red &{
+                color: $red !important;
+            }
+            .green &{
+                color: $green !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+@import './color.scss';
+
+.App.red {
+    .btn-primary {
+        background-color: $red;
+    }
+}
+
+.App.green {
+    .btn-primary {
+        background-color: #0f0;
+    }
+}
+.App.blue {
+    .btn-primary {
+        background-color: #00f;
+    }
+}
