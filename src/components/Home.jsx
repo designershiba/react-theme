@@ -7,6 +7,7 @@ export default function Home() {
     const dispatch = useDispatch();
   return (
     <MDBContainer className='mt-5'>
+        <label>Select Theme: &nbsp; &nbsp; </label>
       <select onChange={(e)=> dispatch(selectColour(e.target.value))} defaultValue={'blue'} class="browser-default custom-select">
         <option value='red'>Red</option>
         <option value='green'>Green</option>
